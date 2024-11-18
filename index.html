@@ -14,7 +14,7 @@
 <body class="font-['Poppins']">
     <header id="header" class="relative p-5 bg-cover bg-center h-[400px] sm:h-[500px] md:h-[655px]" style="background-image: url('Assets/Keeva airlines 2.jpeg'); background-size: cover; background-position: center;">
         <div class="absolute top-0 left-0 right-0 bottom-0 bg-black bg-opacity-60"></div>       
-        <nav id="navbar" class="fixed top-0 w-full flex justify-between items-center p-3 backdrop-blur-lg transition-all duration-300 font-semibold text-white z-50">
+        <nav id="navbar" class="fixed top-0 left-0 w-full flex justify-between items-center p-3 backdrop-blur-lg transition-all duration-300 font-semibold text-white z-50">
             <div class="lg:hidden flex items-center">
                 <button id="hamburger" class="text-white text-3xl" aria-label="Toggle navigation menu">
                     <i class="ph ph-list"></i>
@@ -33,16 +33,15 @@
                 <li><a href="#" class="pr-7 hover:text-indigo-800">About</a></li>
             </ul>
         
-            <div id="mobile-menu" class="lg:hidden fixed top-0 left-0 right-0 bottom-0 bg-gray-800 bg-opacity-90 flex flex-col items-center justify-center hidden">
+            <div id="mobile-menu" class="lg:hidden inset-0 bg-gray-800 bg-transparent flex flex-col items-center justify-center hidden z-50">
                 <button id="close-menu" class="absolute top-4 right-4 text-white text-3xl">
-                    &times;
                 </button>
                 <ul>
-                    <li><a href="#" class="text-white text-2xl py-4 block">Home</a></li>
-                    <li><a href="#" class="text-white text-2xl py-4 block">Training Program</a></li>
-                    <li><a href="#" class="text-white text-2xl py-4 block">Private Pilot License-Executive</a></li>
-                    <li><a href="#" class="text-white text-2xl py-4 block">Gallery</a></li>
-                    <li><a href="#" class="text-white text-2xl py-4 block">About</a></li>
+                    <li><a href="#" class="text-white lg:text-2xl md:text-xl py-4 block">Home</a></li>
+                    <li><a href="#" class="text-white lg:text-2xl md:text-xl py-4 block">Training Program</a></li>
+                    <li><a href="#" class="text-white lg:text-2xl md:text-xl py-4 block">Private Pilot License-Executive</a></li>
+                    <li><a href="#" class="text-white lg:text-2xl md:text-xl py-4 block">Gallery</a></li>
+                    <li><a href="#" class="text-white lg:text-2xl md:text-xl py-4 block">About</a></li>
                 </ul>
             </div>
         </nav>

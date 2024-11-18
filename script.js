@@ -1,6 +1,5 @@
 const hamburger = document.getElementById('hamburger');
 const mobileMenu = document.getElementById('mobile-menu');
-const closeMenu = document.getElementById('close-menu');
 const navbar = document.getElementById('navbar');
 const headerHeight = document.querySelector('header').offsetHeight;
 
