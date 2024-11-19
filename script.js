@@ -3,6 +3,10 @@ const mobileMenu = document.getElementById('mobile-menu');
 const navbar = document.getElementById('navbar');
 const headerHeight = document.querySelector('header').offsetHeight;
 
+window.onload = function () {
+    document.body.style.opacity = "1";
+};
+
 hamburger.addEventListener('click', () => {
     mobileMenu.classList.toggle('hidden');
  });

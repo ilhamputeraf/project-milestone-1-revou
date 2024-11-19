@@ -10,11 +10,12 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
     <script src="https://unpkg.com/@phosphor-icons/web"></script>
+    <link rel="stylesheet" href="/style.css">
 </head>
 <body class="font-['Poppins']">
-    <header id="header" class="relative p-5 bg-cover bg-center h-[400px] sm:h-[500px] md:h-[655px]" style="background-image: url('Assets/Keeva airlines 2.jpeg'); background-size: cover; background-position: center;">
+    <header id="header" class="slide-in-left relative p-5 bg-cover bg-center h-[400px] sm:h-[500px] md:h-[655px]" style="background-image: url('Assets/Keeva airlines 2.jpeg'); background-size: cover; background-position: center;">
         <div class="absolute top-0 left-0 right-0 bottom-0 bg-black bg-opacity-60"></div>       
-        <nav id="navbar" class="fixed top-0 left-0 w-full flex justify-between items-center p-3 backdrop-blur-lg transition-all duration-300 font-semibold text-white z-50">
+        <nav id="navbar" class="fixed top-0 left-0 w-full flex justify-between items-center p-3 bg-black transition-all duration-300 font-semibold text-white z-50">
             <div class="lg:hidden flex items-center">
                 <button id="hamburger" class="text-white text-3xl" aria-label="Toggle navigation menu">
                     <i class="ph ph-list"></i>
@@ -53,7 +54,7 @@
         </div>
     </header>
 
-    <section class="about-us p-5">
+    <section class="about-us slide-in-right p-5">
         <div class="flex flex-col md:flex-row items-center p-5 md:p-10 text-black border-2 rounded-3xl border-solid border-slate-400 gap-5">
             <div class="w-full md:w-1/2">
                 <h1 class="text-2xl md:text-3xl font-semibold font-['clash-display']">About us.</h1>
@@ -69,14 +70,14 @@
         </div>
     </section>    
 
-    <section class="our-mission bg-gray-800">
+    <section class="slide-in-left our-mission bg-gray-800">
         <div class="flex flex-col items-center p-10 text-white">
         <h1 class="text-5xl font-semibold font-['clash-display']">Our Mission</h1>
-        <h4 class="text-2xl p-10 font-semibold">"To empower the next generation of pilots with the skills, knowledge, and confidence to excel in the ever-evolving aviation industry."</h4>
+        <h4 class="md:text-xl lg:text-2xl p-10 font-semibold">"To empower the next generation of pilots with the skills, knowledge, and confidence to excel in the ever-evolving aviation industry."</h4>
         </div>
     </section>
 
-    <section class="border-2 p-5">
+    <section class="slide-in-right border-2 p-5">
         <div class="grid grid-cols-1 md:grid-cols-3 gap-5 p-5">
             <h1 class="col-span-3 flex items-center justify-center text-5xl font-semibold font-['clash-display'] mb-5">Why Choose KIFA</h1>
             <div class="md:col-span-1 flex justify-center items-center">
@@ -105,7 +106,7 @@
         </div>
     </section>
 
-    <section class="pt-3">
+    <section class="slide-in-left pt-3">
         <h1 class="col-span-3 flex items-center justify-center text-5xl font-semibold font-['clash-display'] mb-5">Our Featured Course</h1>
         <p class="flex items-center justify-center text-md font-semibold font-['clash-display']">Well structured theoretical and practice material to give the best possible result.</p>
         <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 p-6">
@@ -140,7 +141,7 @@
         </div>
     </section>
     
-    <section class="our-team p-5">
+    <section class="slide-in-right our-team p-5">
         <h1 class="col-span-3 flex items-center justify-center text-5xl font-semibold font-['clash-display'] mb-5">Our Teams</h1>
         <div class="team-1 flex flex-col md:flex-row items-center justify-between border rounded-3xl mb-5 gap-5">
             <img src="Assets/pilotteam.webp" 
@@ -194,7 +195,7 @@
                  alt="pilot-team5">
         </div>
     </section>
-    <footer>
+    <footer class="slide-in-left">
         <div class="company flex flex-col sm:flex-row items-center justify-between gap-y-3 sm:gap-y-0 sm:gap-x-5 bg-gray-800 text-white p-5">
             <div class="flex items-center justify-center sm:justify-start">
                 <img src="/Assets/KA.png" width="150" height="60" alt="logo-company">
