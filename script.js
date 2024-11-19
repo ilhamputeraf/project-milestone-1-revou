@@ -2,6 +2,8 @@ const hamburger = document.getElementById('hamburger');
 const mobileMenu = document.getElementById('mobile-menu');
 const navbar = document.getElementById('navbar');
 const headerHeight = document.querySelector('header').offsetHeight;
+const track = document.querySelector('.carousel-track');
+const clone = track.innerHTML;
 
 window.onload = function () {
     document.body.style.opacity = "1";

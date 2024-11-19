@@ -1,3 +1,7 @@
+.our-mission h4 {
+    font-family: "Courgette", cursive;
+}
+
 .slide-in-left {
     opacity: 0;
     transform: translateX(-200px);
@@ -8,6 +12,40 @@
     opacity: 0;
     transform: translateX(200px);
     animation: slideInFromRight 2s ease-in-out forwards;
+}
+.media-partner {
+    overflow: hidden;
+    position: relative;
+}
+
+.carousel {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    overflow: hidden;
+    position: relative;
+}
+
+.carousel-track {
+    display: flex;
+    gap: 20px;
+    animation: scroll 40s linear infinite;
+}
+
+.carousel-track img {
+    flex-shrink: 0;
+    width: 100px;
+    height: auto;
+    padding: 1px;
+}
+
+@keyframes scroll {
+    0% {
+        transform: translateX(0);
+    }
+    100% {
+        transform: translateX(-100%);
+    }
 }
 
 @keyframes slideInFromLeft {

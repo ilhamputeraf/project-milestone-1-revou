@@ -9,11 +9,13 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Courgette&family=Edu+AU+VIC+WA+NT+Pre:wght@400..700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Red+Hat+Display:ital,wght@0,300..900;1,300..900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Courgette&family=Edu+AU+VIC+WA+NT+Pre:wght@400..700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Red+Hat+Display:ital,wght@0,300..900;1,300..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
     <script src="https://unpkg.com/@phosphor-icons/web"></script>
     <link rel="stylesheet" href="/style.css">
 </head>
-<body class="font-['Poppins']">
-    <header id="header" class="relative p-5 bg-cover bg-center h-[400px] sm:h-[500px] md:h-[655px]" style="background-image: url('Assets/Keeva airlines 2.jpeg'); background-size: cover; background-position: center;">
+<body class="font-['Roboto']">
+    <header id="header" class="relative shadow-lg shadow-black p-5 bg-cover bg-center h-[400px] sm:h-[500px] md:h-[655px]" style="background-image: url('Assets/Keeva airlines 2.jpeg'); background-size: cover; background-position: center;">
         <div class="absolute top-0 left-0 right-0 bottom-0 bg-black bg-opacity-60"></div>       
         <nav id="navbar" class="fixed slide-in-left  top-0 left-0 w-full flex justify-between items-center p-3 bg-black bg-opacity-80 transition-all duration-300 font-semibold text-white z-50">
             <div class="lg:hidden flex items-center">
@@ -55,10 +57,10 @@
     </header>
 
     <section class="about-us slide-in-right p-5">
-        <div class="flex flex-col md:flex-row items-center p-5 md:p-10 text-black border-2 rounded-3xl border-solid border-slate-400 gap-5">
+        <div class="flex flex-col md:flex-row items-center p-5 md:p-10 shadow-2xl shadow-black text-black border-2 rounded-3xl border-solid border-slate-400 gap-5">
             <div class="w-full md:w-1/2">
                 <h1 class="text-2xl md:text-3xl font-semibold font-['clash-display']">About us.</h1>
-                <p class="pt-5 md:pt-10 text-base md:text-lg leading-relaxed">
+                <p class="pt-5 md:pt-10 md:text-lg leading-relaxed">
                     At Keeva International Flight Academy, we are dedicated to shaping the future of aviation by providing world-class training to aspiring pilots from across the globe. With a commitment to excellence, innovation, and safety, we prepare our students to soar to new heights in their aviation careers.
                 </p>
             </div>
@@ -70,18 +72,43 @@
         </div>
     </section>    
 
-    <section class="slide-in-left our-mission bg-gray-800">
+    <section class="our-mission slide-in-left our-mission bg-gray-800">
         <div class="flex flex-col items-center p-10 text-white">
         <h1 class="text-5xl font-semibold font-['clash-display']">Our Mission</h1>
-        <h4 class="md:text-xl lg:text-2xl p-10 font-semibold">"To empower the next generation of pilots with the skills, knowledge, and confidence to excel in the ever-evolving aviation industry."</h4>
+        <h4 class="md:text-xl lg:text-2xl pt-8 font-semibold">"To empower the next generation of pilots with the skills, knowledge, and confidence to excel in the ever-evolving aviation industry."</h4>
         </div>
     </section>
 
-    <section class="slide-in-right border-2 p-5">
+    <section class="media-partner max-w-6xl mx-auto py-5 overflow-hidden">
+        <h1 class="text-[50px] flex items-center justify-center font-bold font-['clash-display']">Our Partner</h1>
+        <div class="carousel">
+            <div class="carousel-track">
+                <img src="/Assets/Garuda-Indonesia-Logo-500x313.png" alt="media-partner1">
+                <img src="Assets/AirAsia_New_Logo.svg" alt="media-partner2">
+                <img src="Assets/British-Airways-Logo-500x313.png" alt="media-partner3">
+                <img src="Assets/Logo-Boeing-500x313.png" alt="media-partner4">
+                <img src="Assets/Qantas-Logo-500x315.png" alt="media-partner5">
+                <img src="Assets/Turkish_Airlines_logo-700x394.png" alt="media-partner6">
+                <img src="Assets/Malaysia_Airlines_2013.svg" alt="media-partner7">
+                <img src="Assets/Singapore_Airlines_Logo.svg" alt="media-partner8">
+
+                <img src="/Assets/Garuda-Indonesia-Logo-500x313.png" alt="media-partner1">
+                <img src="Assets/AirAsia_New_Logo.svg" alt="media-partner2">
+                <img src="Assets/British-Airways-Logo-500x313.png" alt="media-partner3">
+                <img src="Assets/Logo-Boeing-500x313.png" alt="media-partner4">
+                <img src="Assets/Qantas-Logo-500x315.png" alt="media-partner5">
+                <img src="Assets/Turkish_Airlines_logo-700x394.png" alt="media-partner6">
+                <img src="Assets/Malaysia_Airlines_2013.svg" alt="media-partner7">
+                <img src="Assets/Singapore_Airlines_Logo.svg" alt="media-partner8">
+            </div>
+        </div>
+    </section>
+    
+    <section class="why-choose slide-in-right border-2 p-5">
         <div class="grid grid-cols-1 md:grid-cols-3 gap-5 p-5">
             <h1 class="col-span-3 flex items-center justify-center text-5xl font-semibold font-['clash-display'] mb-5">Why Choose KIFA</h1>
             <div class="md:col-span-1 flex justify-center items-center">
-                <img src="/Assets/pilot project.avif" class="w-full max-w-[300px] md:max-w-[400px] object-cover rounded-md" alt="pilot project">
+                <img src="/Assets/pilot project.avif" class="w-full shadow-lg shadow-black max-w-[300px] md:max-w-[400px] object-cover rounded-md" alt="pilot project">
             </div>
             <div class="md:col-span-2 grid grid-cols-1 md:grid-cols-2 gap-4 text-md">
                 <div class="flex flex-row items-center border-2 rounded-xl border-slate-600 p-2">
@@ -110,7 +137,7 @@
         <h1 class="col-span-3 flex items-center justify-center text-5xl font-semibold font-['clash-display'] mb-5">Our Featured Course</h1>
         <p class="flex items-center justify-center text-md font-semibold font-['clash-display']">Well structured theoretical and practice material to give the best possible result.</p>
         <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 p-6">
-            <div class="menu-1 bg-gray-100 border border-gray-300 rounded-lg p-4 flex flex-col text-center">
+            <div class="menu-1 bg-gray-100 border border-gray-300 rounded-3xl p-4 flex flex-col text-center">
                 <img src="/Assets/pilot learner2.webp" alt="pilot-teaching-student" class="w-full h-auto rounded-lg">
                 <h5 class="pt-2 text-blue-800 text-md"><a href="#">Pilot License</a></h5>
                 <p class="mt-4 text-sm text-gray-700 pb-5">
@@ -120,7 +147,7 @@
                 </p>
                 <a href="#" class="mt-auto text-blue-800 hover:underline">Learn More</a>
             </div>
-            <div class="menu-2 bg-gray-100 border border-gray-300 rounded-lg p-4 flex flex-col text-center">
+            <div class="menu-2 bg-gray-100 border border-gray-300 rounded-3xl p-4 flex flex-col text-center">
                 <img src="/Assets/pilot learner.webp" alt="pilot-teaching-student" class="w-full h-auto rounded-lg">
                 <h5 class="pt-2 text-blue-800 text-md"><a href="#">Pilot License with Instrument Rating & Multi Engine Rating</a></h5>
                 <p class="mt-4 text-sm text-gray-700 pb-5">
@@ -128,8 +155,8 @@
                 </p>
                 <a href="#" class="mt-auto text-blue-800 hover:underline">Learn More</a>
             </div>
-            <div class="menu-3 bg-gray-100 border border-gray-300 rounded-lg p-4 flex flex-col text-center">
-                <img src="/Assets/pilot learner2.webp" alt="pilot-teaching-student" class="w-full h-auto rounded-lg">
+            <div class="menu-3 bg-gray-100 border border-gray-300 rounded-3xl p-4 flex flex-col text-center">
+                <img src="Assets/commercial-jet-flyin-beautiful-woman-pilot-checking-data.webp" alt="pilot-teaching-student" class="w-full h-auto rounded-lg">
                 <h5 class="pt-2 text-blue-800 text-md"><a href="#">Airline Transport Pilot License Ground School</a></h5>
                 <p class="mt-4 text-sm text-gray-700 pb-5">
                     Upon completion of training and issuance of Private Pilot License (PPL), a student can fly solo or carry 
@@ -143,7 +170,7 @@
     
     <section class="slide-in-right our-team p-5">
         <h1 class="col-span-3 flex items-center justify-center text-5xl font-semibold font-['clash-display'] mb-5">Our Teams</h1>
-        <div class="team-1 flex flex-col md:flex-row items-center justify-between border rounded-3xl mb-5 gap-5">
+        <div class="team-1 flex flex-col shadow-2xl shadow-black md:flex-row items-center justify-between border rounded-3xl mb-5 gap-5">
             <img src="Assets/pilotteam.webp" 
                  class="w-full md:w-1/2 h-auto md:h-[500px] object-cover rounded-3xl" 
                  alt="pilot-team1">
@@ -156,20 +183,20 @@
             </div>
         </div>
     
-        <div class="team-2 flex flex-col md:flex-row items-center justify-between border rounded-3xl mb-5 gap-5">
-            <div class="flex flex-col items-center font-['clash-display'] p-5 md:p-10">
+        <div class="team-2 flex flex-col shadow-2xl shadow-black md:flex-row items-center justify-between border rounded-3xl mb-5 gap-5">
+            <img src="Assets/pilotteam2.webp" 
+                 class="w-full md:w-1/2 h-auto md:h-[500px] object-cover rounded-3xl order-1 md:order-2" 
+                 alt="pilot-team2">
+            <div class="flex flex-col items-center font-['clash-display'] p-5 md:p-10 order-2 md:order-1">
                 <h1 class="text-lg md:text-2xl font-semibold pb-3 text-center">
                     Capt. Justin Bieber<br>
                     Instructor, Keeva Flight Academy
                 </h1>
                 <p class="text-base md:text-xl text-center">"Be the best pilot with us"</p>
             </div>
-            <img src="Assets/pilotteam2.webp" 
-                 class="w-full md:w-1/2 h-auto md:h-[500px] object-cover rounded-3xl" 
-                 alt="pilot-team2">
-        </div>
+        </div>        
     
-        <div class="team-1 flex flex-col md:flex-row items-center justify-between border rounded-3xl mb-5 gap-5">
+        <div class="team-3 flex flex-col shadow-2xl shadow-black md:flex-row items-center justify-between border rounded-3xl mb-5 gap-5">
             <img src="Assets/pilotteam4.webp" 
                  class="w-full md:w-1/2 h-auto md:h-[500px] object-cover rounded-3xl" 
                  alt="pilot-team4">
@@ -182,18 +209,19 @@
             </div>
         </div>
     
-        <div class="team-2 flex flex-col md:flex-row items-center justify-between border rounded-3xl mb-5 gap-5">
-            <div class="flex flex-col items-center font-['clash-display'] p-5 md:p-10">
+        <div class="team-4 flex flex-col shadow-2xl shadow-black md:flex-row items-center justify-between border rounded-3xl mb-5 gap-5">
+            <img src="Assets/young-beautiful-female-pilot-sitting-airplane-cockpit-taking-selfie_601128-4492.avif" 
+                 class="w-full md:w-1/2 h-auto md:h-[500px] object-cover rounded-3xl order-1 md:order-2" 
+                 alt="pilot-team5">
+            <div class="flex flex-col items-center font-['clash-display'] p-5 md:p-10 order-2 md:order-1">
                 <h1 class="text-lg md:text-2xl font-semibold pb-3 text-center">
                     Capt. Scarlett Johansson<br>
                     Instructor, Keeva Flight Academy
                 </h1>
                 <p class="text-base md:text-xl text-center">"Be my student."</p>
             </div>
-            <img src="Assets/pilotteam5.webp" 
-                 class="w-full md:w-1/2 h-auto md:h-[500px] object-cover rounded-3xl" 
-                 alt="pilot-team5">
         </div>
+        
     </section>
     <footer class="slide-in-left">
         <div class="company flex flex-col sm:flex-row items-center justify-between gap-y-3 sm:gap-y-0 sm:gap-x-5 bg-gray-800 text-white p-5">
