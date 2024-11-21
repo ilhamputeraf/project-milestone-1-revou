@@ -12,7 +12,6 @@ This project is a modern, responsive website for **Keeva International Flight Ac
 - [Installation](#installation)
 - [Folder Structure](#folder-structure)
 - [Contributing](#contributing)
-- [License](#license)
 
 ---
 
